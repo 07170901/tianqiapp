@@ -1,0 +1,36 @@
+/*默认样式  start*/
+body{
+	margin: 0 auto;	
+	font-size:16px;
+	
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+input{
+	outline: none;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+}
+img{
+ 	width: 100%;
+	 display: block;  
+}
+/*默认样式  end*/
+
+/*基本样式   start*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::after{
+	content:'';
+	display:block;
+	clear: both;
+}
+/*基本样式  end*/

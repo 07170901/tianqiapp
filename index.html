@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no maximum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>天气</title>
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+	
+	<div class="weather">
+		
+	<!--任务栏  start-->
+	<div class="weather-nav">
+		<div class="weather-nav-space"></div>
+		<div class="city-position clearfix">
+			<div class="fl cityPosion">
+				<span class="cityPosion-icon">
+				</span>
+				<span class="city"></span>
+			</div>
+			<div class="fr citySearch bar">
+			<input type="text" class="search" name="" id="" autocomplete="off"/>
+			<span class="searth-icon"></span>
+			</div>
+		</div>
+	</div>
+	<!--任务栏  end-->
+	<div class="weather-box">
+	<!--今天实时天气  start-->
+	<div class="weather-now">
+		<div class="time">
+			<span class="date"></span>
+			<span class="week"></span>
+		</div>
+		<div class="weather-box  clearfix">
+			<span class="tem fl"></span>
+			
+			<div class="weather-weatext fr">
+				<div class='weather-text'>
+				<span class="wea_img"></span>
+				<span class="air_level"></span>
+				</div>
+			</div>
+		</div>
+		<div class="weather-wind">
+			<span class="win"></span>
+			<span class="win_speed"></span>
+			<span class="win_meter"></span>
+		</div>
+		</div>
+	
+	<!--今天实时天气  end-->
+	
+	<!--今天24小时天气  start-->
+	<div class="weather-today">
+		<div class="today-title">24小时天气</div>
+		<div class="today-body clearfix" >
+			<ul class="clearfix weather-today-list">
+			</ul>
+		</div>
+		
+	</div>	
+	<!--今天24小时天气  end-->
+
+	<!--未来六天天气  start-->
+	<div class="weather-future">
+		<div class="future-title">未来六天天气</div>
+		<div class="list-weather">
+			<ul class="future-list">
+				
+			</ul>
+		</div>
+	</div>	
+	<!--未来六天天气  end-->
+	</div>
+	</div>
+
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/rem.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/index.js"></script>
+	
+</body>
+</html>
